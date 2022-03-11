@@ -1,27 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- * main - generates random number n
- * Description: determined whether n is 0, n > 5 or n < 6
- * Return: 0
+ * main - Prints the alphabetic
+ * 
+ * Return: Always (Success)
  */
 int main(void)
 {
-	int n;
-	int lastDigit;
+	char c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
 
-	lastDigit = n % 10;
-
-	printf("Last digit of %d is %d and is ", n, lastDigit);
-	if (lastDigit > 5)
-		printf("greater than 5\n");
-	else if (lastDigit == 0)
-		printf("0\n");
-	else
-		printf("less than 6 and not 0\n");
+	putchar("\n")
 	return (0);
 }
