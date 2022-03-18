@@ -1,24 +1,22 @@
-   
 #include "main.h"
 
 /**
- * * main - print triple combos
- * *
- * * Description: print triple digit combos
- * *
- * * Return: Always 0 (Success)
+ * main - Entry point
+ *
+ * Return: nothing, return void
  */
 
 int main(void)
 {
-	char my_string[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};
-	int i;
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
-	for (i = 0; i <= 8; ++i)
-	{
-		_putchar(my_string[i]);
-
-	}
-
-	return (0);
+return (0);
 }
