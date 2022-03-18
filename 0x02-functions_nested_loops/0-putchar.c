@@ -1,23 +1,24 @@
+   
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: nothing, return voic
- * /
- 
- int main(void)
- {
- 
- { putchar(");
-  _putchar('p);
-  _putchar('u');
-  _putchar('t');
-  _putchar('c');
-  _putchar('h');
-  _putchar('a');
-  _putchar('r');
-  _putchar('\n');
- }
-  return (0);
- }
+ * * main - print triple combos
+ * *
+ * * Description: print triple digit combos
+ * *
+ * * Return: Always 0 (Success)
+ */
+
+int main(void)
+{
+	char my_string[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};
+	int i;
+
+	for (i = 0; i <= 8; ++i)
+	{
+		_putchar(my_string[i]);
+
+	}
+
+	return (0);
+}
