@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * main - Entry point
  *
@@ -20,3 +21,4 @@ _putchar('\n');
 
 return (0);
 }
+
