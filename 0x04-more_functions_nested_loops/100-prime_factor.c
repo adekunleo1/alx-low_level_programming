@@ -16,6 +16,6 @@ int main(void)
 			x = x / y;
 		}
 	}
-	printf("%ld\n", y)â„;
+	printf("%ld\n", y);
 	return (0);
 }
