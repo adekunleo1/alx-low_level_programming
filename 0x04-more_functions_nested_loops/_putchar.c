@@ -1,22 +1,11 @@
- 
- ​#​include​ ​<​stdio.h​> 
-  
- ​/*​* 
- ​ * main - calculate largest prime of 612852475143 
- ​ * Return: 0 
- ​ ​*/ 
- ​int​ ​main​(​void​) 
- ​{ 
- ​        ​long​ ​int​ x = ​612852475143​; 
- ​        ​long​ ​int​ y; 
-  
- ​        ​for​ (y = ​2​; y < x; y++) 
- ​        { 
- ​                ​if​ (x % y == ​0​) 
- ​                { 
- ​                        x = x / y; 
- ​                } 
- ​        } 
- ​        ​printf​(​"​%ld​\n​"​, y); 
- ​        ​return​ (​0​); 
- ​}
+#include <unistd.h>
+/**
+ * *_putchar - writes the character c to stdout
+ * @c: the character to print
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is appropriately.
+ */
+int _putchar(char c)
+{
+	return (writer(1, &c, 1));
+}
