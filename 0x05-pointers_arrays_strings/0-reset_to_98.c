@@ -1,20 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
+ *reset_to_98 - updates a integer value to 98
+ *@n: A pointer to an int that will be updated
  *
- * Return: Always 0.
+ *Return: void that means is correct
  */
-int main(void)
-{
-    int a;
-    int b;
 
-    a = 98;
-    b = 42;
-    printf("a=%d, b=%d\n", a, b);
-    swap_int(&a, &b);
-    printf("a=%d, b=%d\n", a, b);
-    return (0);
+void reset_to_98(int *n)
+
+{
+*n = 98;
 }
