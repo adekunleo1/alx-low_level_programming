@@ -1,0 +1,6 @@
+#!/bin/bash
+#include <stdio.h>
+#include <main.h>
+{
+	int c;
+}
