@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "search_algos.h"
-
 
 /**
  * linear_search_algorithms - used to search for a value in an array of
@@ -12,6 +9,7 @@
  * @value: value of the search
  * Return: Always EXIT_SUCCESS
  */
+
 int linear_search(int *array, size_t size, int value)
 {
 	int i;
